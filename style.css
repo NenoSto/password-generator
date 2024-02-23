@@ -1,0 +1,120 @@
+html{
+    min-height: 100%;
+    background-color: rgb(182, 181, 180);
+    }
+    
+    
+    
+    body{
+    min-height: 100%;
+    background-color: rgb(182, 181, 180);
+    background-image: linear-gradient(315deg, #445b66 0%, rgb(182, 181, 180) 74%);
+    text-align: center;
+    }
+    
+    
+    
+    .slider{
+    width: 70%;
+    height: 10px;
+    background: #0c2b34;
+    border-radius: 15px;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    }
+    
+    .slider:hover{
+    opacity: 0.8;
+    }
+    
+    .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #447a7a;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    
+    .action-btn{
+    background-color: #193d43;
+    border: 0;
+    color: #f7be04;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px  20px;
+    border-radius: 15px;
+    font-family: fantasy;
+    opacity: 0.8;
+    transition: opacity .2s;
+    }
+    
+    
+    
+    .action-btn:hover{
+    opacity: 0.5;
+    }
+    
+    
+    
+    .wrapper{
+    display: flex;
+    background-color: hsl(189, 47%, 61%);
+    flex-direction: column;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 15px;
+    font-family: fantasy;
+    padding-bottom: 1%;
+    }
+    
+    .slider_main{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    output{
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+    
+    
+    
+    .wrapper_main
+    {
+    display: flex;
+    background-color: rgb(250, 247, 247);
+    flex-direction: row;
+    width: 22%;
+    margin-top: 5%;
+    margin-left: 38%;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    padding-left: 45px;
+    }
+    
+    
+    
+    .clipboard{
+    margin-left: auto;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(1, 67, 69);
+    color:rgb(91, 62, 62);
+    border-radius: 15px;
+    font-size: 23px;
+    opacity: 1;
+    transition: opacity .2s;
+    }
+    
+    
+    
+    .clipboard:hover{
+    opacity: 0.3;
+    }
